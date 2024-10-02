@@ -11,7 +11,7 @@ function fillBus(busStops, busSteats)
         totalPeople += busStops[index];
         if(totalPeople >= busSteats)
         {
-            return index + 1;
+            return index;
         }
         index++;
     }
